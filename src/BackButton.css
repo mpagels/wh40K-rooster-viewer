@@ -1,0 +1,17 @@
+.back-btn {
+  all: unset;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  width: 100%;
+}
