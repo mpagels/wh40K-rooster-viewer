@@ -14,6 +14,7 @@ import CrisisSuits from "./src/routes/crisissuits";
 import Ghostkeel from "./src/routes/ghostkeel";
 import Pathfinders from "./src/routes/pathfinders";
 import Broadside from "./src/routes/broadside";
+import KrootCarnivores from "./src/routes/krootCarnivores";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "/broadside",
     element: <Broadside />,
+  },
+  {
+    path: "/krootcarnivores",
+    element: <KrootCarnivores />,
   },
 ]);
 

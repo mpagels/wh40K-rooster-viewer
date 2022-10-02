@@ -10,6 +10,7 @@ export default function Root() {
       <Link to={`ghostkeel`}>Ghostkeel Battlesuit</Link>
       <Link to={`broadside`}>Broadside</Link>
       <Link to={`krootshaper`}>Kroot Sharper</Link>
+      <Link to={`krootcarnivores`}>Kroot Carnivores</Link>
       <Link to={`kroothounds`}>Kroot Hounds</Link>
     </div>
   );
