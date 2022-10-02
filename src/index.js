@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./BackButton.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./battlescripe.css";
 import Root from "./src/routes/root";
 import CadreFireblade from "./src/routes/cadreFireblade";
