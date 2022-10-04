@@ -6,7 +6,7 @@ export default function CrisisSuits2() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Crisis Battlesuits [11 PL, 220pts]</h4>
+            <h4>Crisis Battlesuits [11 PL, 230pts]</h4>
             <p class="category-names">
               <span class="bold">Categories:</span>{" "}
               <span class="caps">
@@ -22,58 +22,54 @@ export default function CrisisSuits2() {
               <li>
                 <h4>Crisis Shas'ui [60pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Cyclic Ion Blaster [10pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Early Warning Override,
+                  Missile Pod [10pts], Plasma Rifle [10pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">
+                    Early Warning Override, Target Lock
+                  </span>
+                  , <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Cyclic Ion Blaster
-                    (Overcharge), Cyclic Ion Blaster (Standard)
-                  </span>
+                  <span class="italic">Missile Pod, Plasma Rifle</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'ui [60pts]</h4>
+                <h4>Crisis Shas'ui [65pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Cyclic Ion Blaster [10pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Early Warning Override,
+                  Missile Pod [10pts], Plasma Rifle [10pts], Shield Generator
+                  [5pts]
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">
+                    Early Warning Override, Shield Generator
+                  </span>
+                  , <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Cyclic Ion Blaster
-                    (Overcharge), Cyclic Ion Blaster (Standard)
-                  </span>
+                  <span class="italic">Missile Pod, Plasma Rifle</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'vre [60pts]</h4>
+                <h4>Crisis Shas'vre [65pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Cyclic Ion Blaster [10pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Early Warning Override,
+                  Missile Pod [10pts], Plasma Rifle [10pts], Shield Generator
+                  [5pts]
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">
+                    Early Warning Override, Shield Generator
+                  </span>
+                  , <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'vre</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Cyclic Ion Blaster
-                    (Overcharge), Cyclic Ion Blaster (Standard)
-                  </span>
+                  <span class="italic">Missile Pod, Plasma Rifle</span>
                 </p>
               </li>
               <li>
@@ -145,18 +141,28 @@ export default function CrisisSuits2() {
                   <td>Codex: Tau Empire p97</td>
                 </tr>
                 <tr>
+                  <td class="profile-name">Early Warning Override</td>
+                  <td>
+                    - Each time the bearer fires Overwatch, it scores hits on
+                    unmodified hit rolls of 5+, instead of 6. - Each time you
+                    use the Fire Overwatch Stratagem, if the bearer is on the
+                    battlefield and its unit is selected to fire Overwatch,
+                    reduce the CP cost of that Stratagem by 1CP (to a minimum of
+                    0CP). Note that the CP cost is only reduced by 1CP for that
+                    use of the Stratagem, any future usages of it cost the
+                    normal amount of CPs.
+                  </td>
+                  <td>Codex: Tau Empire p100</td>
+                </tr>
+                <tr>
                   <td class="profile-name">Markerlight</td>
                   <td>The bearer gains the MARKERLIGHT keyword.</td>
                   <td>Codex: Tau Empire p96</td>
                 </tr>
                 <tr>
-                  <td class="profile-name">Multi-tracker</td>
-                  <td>
-                    Each time a ranged attack made by the bearer targets a unit
-                    containing 6 or more models, an unmodified hit roll of 6
-                    scores 1 additional hit. Maximum 1 per model.
-                  </td>
-                  <td>Codex: Tau Empire p100</td>
+                  <td class="profile-name">Shield Generator</td>
+                  <td>The bearer has a 4+ invulnerable save.</td>
+                  <td>Codex: Tau Empire p99,100</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Target Lock</td>
@@ -250,43 +256,24 @@ export default function CrisisSuits2() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">
-                    Airbursting Fragmentation Projector
-                  </td>
-                  <td>24"</td>
-                  <td>Assault D6</td>
-                  <td>4</td>
-                  <td>-1</td>
-                  <td>1</td>
-                  <td>
-                    Blast. This weapon can target units that are not visible to
-                    the bearer.
-                  </td>
-                  <td>Codex: Tau Empire p131</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Cyclic Ion Blaster (Overcharge)</td>
-                  <td>18"</td>
-                  <td>Assault 3</td>
-                  <td>8</td>
-                  <td>-2</td>
-                  <td>2</td>
-                  <td>
-                    Each time an unmodified hit roll of 1 is made for an attack
-                    with this weapon profile, the bearer's unit suffers 1 mortal
-                    wound after shooting with this weapon.
-                  </td>
-                  <td>Codex: Tau Empire p131</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Cyclic Ion Blaster (Standard)</td>
-                  <td>18"</td>
-                  <td>Assault 3</td>
+                  <td class="profile-name">Missile Pod</td>
+                  <td>30"</td>
+                  <td>Assault 2</td>
                   <td>7</td>
                   <td>-2</td>
-                  <td>1</td>
+                  <td>2</td>
                   <td>-</td>
                   <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Plasma Rifle</td>
+                  <td>30"</td>
+                  <td>Assault 1</td>
+                  <td>8</td>
+                  <td>-4</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>Codex: Tau Empire p132</td>
                 </tr>
               </tbody>
             </table>

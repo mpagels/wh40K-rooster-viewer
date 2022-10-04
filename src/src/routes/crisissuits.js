@@ -6,118 +6,127 @@ export default function CrisisSuits() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Crisis Battlesuits [12 PL, 245pts]</h4>
+            <h4>Crisis Battlesuits [11 PL, 205pts]</h4>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Faction: &lt;Sept&gt;, Battlesuit, Elites, Fly, Jet Pack,
                 Faction: T'au Empire, Infantry, Core, Crisis
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
+              <span class="bold">Rules:</span>{" "}
               <span class="italic">Battlesuits, Manta Strike</span>
             </p>
             <ul>
               <li>
                 <h4>Crisis Shas'ui [55pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Burst Cannon [5pts],
-                  Missile Pod [10pts], Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
+                  <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Crisis Shas'ui</span>,
-                  <span class="bold">Weapon:</span>
-                  <span class="italic">Burst Cannon, Missile Pod</span>
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Crisis Shas'ui</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Burst Cannon
+                  </span>
                 </p>
               </li>
               <li>
                 <h4>Crisis Shas'ui [55pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Burst Cannon [5pts],
-                  Missile Pod [10pts], Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
+                  <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Crisis Shas'ui</span>,
-                  <span class="bold">Weapon:</span>
-                  <span class="italic">Burst Cannon, Missile Pod</span>
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Crisis Shas'ui</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Burst Cannon
+                  </span>
                 </p>
               </li>
               <li>
                 <h4>Crisis Shas'vre [55pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Burst Cannon [5pts],
-                  Missile Pod [10pts], Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
+                  <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Crisis Shas'vre</span>,
-                  <span class="bold">Weapon:</span>
-                  <span class="italic">Burst Cannon, Missile Pod</span>
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Crisis Shas'vre</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Burst Cannon
+                  </span>
                 </p>
               </li>
               <li>
-                <h4>2x Marker Drone [20pts]</h4>
+                <h4>Marker Drone [10pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> 2x Markerlight
+                  <span class="bold">Selections:</span> Markerlight
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">
                     Faction: &lt;Sept&gt;, Drone, Fly, Faction: T'au Empire,
                     Marker Drone, Markerlight
                   </span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">
                     Artificial Helpers, Docked Drones, Limited Parameters, Manta
                     Strike, Markerlights, Valued Sacrifice
                   </span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Markerlight</span>,
-                  <span class="bold">Unit:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Markerlight</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
                   <span class="italic">Marker Drone</span>
                 </p>
               </li>
               <li>
-                <h4>4x Shield Drone [60pts]</h4>
+                <h4>2x Shield Drone [30pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> 4x Shield Generator
+                  <span class="bold">Selections:</span> 2x Shield Generator
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">
                     Faction: &lt;Sept&gt;, Fly, Drone, Faction: T'au Empire,
                     Shield Drone
                   </span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">
                     Artificial Helpers, Docked Drones, Limited Parameters, Manta
                     Strike, Valued Sacrifice
                   </span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Drone Shield Generator</span>,
-                  <span class="bold">Unit:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Drone Shield Generator</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
                   <span class="italic">Shield Drone</span>
                 </p>
               </li>
             </ul>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -238,22 +247,27 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
+                  <td class="profile-name">
+                    Airbursting Fragmentation Projector
+                  </td>
+                  <td>24"</td>
+                  <td>Assault D6</td>
+                  <td>4</td>
+                  <td>-1</td>
+                  <td>1</td>
+                  <td>
+                    Blast. This weapon can target units that are not visible to
+                    the bearer.
+                  </td>
+                  <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
                   <td class="profile-name">Burst Cannon</td>
                   <td>18"</td>
                   <td>Assault 6</td>
                   <td>5</td>
                   <td>0</td>
                   <td>1</td>
-                  <td>-</td>
-                  <td>Codex: Tau Empire p131</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Missile Pod</td>
-                  <td>30"</td>
-                  <td>Assault 2</td>
-                  <td>7</td>
-                  <td>-2</td>
-                  <td>2</td>
                   <td>-</td>
                   <td>Codex: Tau Empire p131</td>
                 </tr>

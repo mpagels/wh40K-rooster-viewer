@@ -7,10 +7,11 @@ export default function Root() {
       <Link to={`striketeam`}>Strike Team</Link>
       <Link to={`pathfinders`}>Pathfinders</Link>
       <Link to={`crisissuits`} style={{ textAlign: "center" }}>
-        Crisis Suits <br></br>(Bust Canon / Missile Pods)
+        Crisis Suits <br></br>(Bust Canon / AFP)
       </Link>
       <Link to={`crisissuits2`} style={{ textAlign: "center" }}>
-        Crisis Suits <br></br>(AF Projector / CI Blaster)
+        Crisis Suits <br></br>(Plasma Rifle / Missile Pods) <br></br> (Shield
+        Generator, Early Warning Override)
       </Link>
       <Link to={`ghostkeel`}>Ghostkeel Battlesuit</Link>
       <Link to={`broadside`}>Broadside</Link>
