@@ -18,6 +18,9 @@ export default function Root() {
       <Link to={`krootshaper`}>Kroot Sharper</Link>
       <Link to={`krootcarnivores`}>Kroot Carnivores</Link>
       <Link to={`kroothounds`}>Kroot Hounds</Link>
+      <Link to={`kroothounds`}>Kroot Hounds</Link>
+      <Link to={`tausept`}>Tau Sept: Coordinated Fire Arcs</Link>
+      <Link to={`saceasept`}>Sa'cea Sept: Masters of Urban Warfare</Link>
     </div>
   );
 }
