@@ -8,31 +8,31 @@ export default function Pathfinders() {
           <li class="rootselection">
             <h4>Pathfinder Team [6 PL, 100pts]</h4>
             <p>
-              <span class="bold">Selections:</span> Grav-inhibitor Drone [1 PL,
-              10pts]
+              <span class="bold">Selections:</span> Pulse Accelerator Drone [1
+              PL, 10pts]
             </p>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Fast Attack, Infantry, Faction: &lt;Sept&gt;, Faction: T'au
                 Empire, Pathfinder Team, Core, Fire Warrior Team, Photon
-                Grenades, Fly, Drone, Grav-Inhibitor Drone
+                Grenades, Drone, Fly, Pulse Accelerator Drone
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
+              <span class="bold">Rules:</span>{" "}
               <span class="italic">
                 Artificial Helpers, Docked Drones, Limited Parameters, Manta
                 Strike, Valued Sacrifice
               </span>
             </p>
             <p class="profile-names">
-              <span class="bold">Abilities:</span>
+              <span class="bold">Abilities:</span>{" "}
               <span class="italic">
-                Gravity Wave Projector, Target Uploaded, Vanguard
+                Pulse Accelerator, Target Uploaded, Vanguard
               </span>
-              , <span class="bold">Unit:</span>
-              <span class="italic">Grav-inhibitor Drone</span>
+              , <span class="bold">Unit:</span>{" "}
+              <span class="italic">Pulse Accelerator Drone</span>
             </p>
             <ul>
               <li>
@@ -42,19 +42,19 @@ export default function Pathfinders() {
                   Carbine, 9x Pulse Pistol
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">Markerlight</span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">Markerlights</span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Markerlight</span>,
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Pathfinder</span>,
-                  <span class="bold">Weapon:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Markerlight</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Pathfinder</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
                   <span class="italic">Pulse Carbine, Pulse Pistol</span>
                 </p>
               </li>
@@ -65,24 +65,24 @@ export default function Pathfinders() {
                   Carbine, Pulse Pistol
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">Markerlight</span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">Markerlights</span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Markerlight</span>,
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Pathfinder Shas'ui</span>,
-                  <span class="bold">Weapon:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Markerlight</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Pathfinder Shas'ui</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
                   <span class="italic">Pulse Carbine, Pulse Pistol</span>
                 </p>
               </li>
             </ul>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -91,16 +91,17 @@ export default function Pathfinders() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">Gravity Wave Projector</td>
-                  <td>
-                    Subtract 2 from charge rolls made for any units that declare
-                    a charge against this unit.
-                  </td>
-                  <td>Codex: Tau Empire p95</td>
-                </tr>
-                <tr>
                   <td class="profile-name">Markerlight</td>
                   <td>The bearer gains the MARKERLIGHT keyword.</td>
+                  <td>Codex: Tau Empire p96</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Pulse Accelerator</td>
+                  <td>
+                    Each time a model in this unit makes an attack with a pulse
+                    weapon (pg 130), improve the Armour Penetration
+                    characteristic of that attack by 1.
+                  </td>
                   <td>Codex: Tau Empire p96</td>
                 </tr>
                 <tr>
@@ -138,19 +139,6 @@ export default function Pathfinders() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">Grav-inhibitor Drone</td>
-                  <td>10"</td>
-                  <td>5+</td>
-                  <td>5+</td>
-                  <td>3</td>
-                  <td>4</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>6</td>
-                  <td>4+</td>
-                  <td>Codex: Tau Empire p94</td>
-                </tr>
-                <tr>
                   <td class="profile-name">Pathfinder</td>
                   <td>7"</td>
                   <td>5+</td>
@@ -175,6 +163,19 @@ export default function Pathfinders() {
                   <td>8</td>
                   <td>5+</td>
                   <td>Codex: Tau Empire p116</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Pulse Accelerator Drone</td>
+                  <td>10"</td>
+                  <td>5+</td>
+                  <td>5+</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>6</td>
+                  <td>4+</td>
+                  <td>Codex: Tau Empire p94</td>
                 </tr>
               </tbody>
             </table>
