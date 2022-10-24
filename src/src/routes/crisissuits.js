@@ -6,7 +6,7 @@ export default function CrisisSuits() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Crisis Battlesuits [11 PL, 205pts]</h4>
+            <h4>Crisis Battlesuits [12 PL, 335pts]</h4>
             <p class="category-names">
               <span class="bold">Categories:</span>{" "}
               <span class="caps">
@@ -20,63 +20,54 @@ export default function CrisisSuits() {
             </p>
             <ul>
               <li>
-                <h4>Crisis Shas'ui [55pts]</h4>
+                <h4>Crisis Shas'ui [85pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Missile Pod [10pts],
+                  Missile Pod [15pts], Missile Pod [20pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
+                  <span class="italic">Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Missile Pod</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'ui [55pts]</h4>
+                <h4>Crisis Shas'ui [85pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Missile Pod [10pts],
+                  Missile Pod [15pts], Missile Pod [20pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
+                  <span class="italic">Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Missile Pod</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'vre [55pts]</h4>
+                <h4>Crisis Shas'vre [85pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
-                  Multi-tracker, Target Lock
+                  <span class="bold">Selections:</span> Missile Pod [20pts],
+                  Missile Pod [10pts], Missile Pod [15pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Multi-tracker, Target Lock</span>,{" "}
+                  <span class="italic">Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'vre</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Missile Pod</span>
                 </p>
               </li>
               <li>
-                <h4>Marker Drone [10pts]</h4>
+                <h4>2x Marker Drone [20pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Markerlight
+                  <span class="bold">Selections:</span> 2x Markerlight
                 </p>
                 <p class="category-names">
                   <span class="bold">Categories:</span>{" "}
@@ -100,9 +91,9 @@ export default function CrisisSuits() {
                 </p>
               </li>
               <li>
-                <h4>2x Shield Drone [30pts]</h4>
+                <h4>4x Shield Drone [60pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> 2x Shield Generator
+                  <span class="bold">Selections:</span> 4x Shield Generator
                 </p>
                 <p class="category-names">
                   <span class="bold">Categories:</span>{" "}
@@ -145,15 +136,6 @@ export default function CrisisSuits() {
                   <td class="profile-name">Markerlight</td>
                   <td>The bearer gains the MARKERLIGHT keyword.</td>
                   <td>Codex: Tau Empire p96</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Multi-tracker</td>
-                  <td>
-                    Each time a ranged attack made by the bearer targets a unit
-                    containing 6 or more models, an unmodified hit roll of 6
-                    scores 1 additional hit. Maximum 1 per model.
-                  </td>
-                  <td>Codex: Tau Empire p100</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Target Lock</td>
@@ -247,27 +229,12 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">
-                    Airbursting Fragmentation Projector
-                  </td>
-                  <td>24"</td>
-                  <td>Assault D6</td>
-                  <td>4</td>
-                  <td>-1</td>
-                  <td>1</td>
-                  <td>
-                    Blast. This weapon can target units that are not visible to
-                    the bearer.
-                  </td>
-                  <td>Codex: Tau Empire p131</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Burst Cannon</td>
-                  <td>18"</td>
-                  <td>Assault 6</td>
-                  <td>5</td>
-                  <td>0</td>
-                  <td>1</td>
+                  <td class="profile-name">Missile Pod</td>
+                  <td>30"</td>
+                  <td>Assault 2</td>
+                  <td>7</td>
+                  <td>-2</td>
+                  <td>2</td>
                   <td>-</td>
                   <td>Codex: Tau Empire p131</td>
                 </tr>

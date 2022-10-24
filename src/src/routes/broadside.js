@@ -8,14 +8,14 @@ export default function Broadside() {
           <li class="rootselection">
             <h4>Broadside Battlesuits [6 PL, 125pts]</h4>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Faction: &lt;Sept&gt;, Battlesuit, Heavy Support, Faction: T'au
                 Empire, Broadside Battlesuits, Infantry
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
+              <span class="bold">Rules:</span>{" "}
               <span class="italic">Battlesuits</span>
             </p>
             <ul>
@@ -27,11 +27,11 @@ export default function Broadside() {
                   [10pts]
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Advanced Targeting System</span>,
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Broadside Shas'vre</span>,
-                  <span class="bold">Weapon:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Advanced Targeting System</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Broadside Shas'vre</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
                   <span class="italic">
                     Crushing Bulk, Heavy Rail Rifle, Twin Plasma Rifle
                   </span>
@@ -43,28 +43,28 @@ export default function Broadside() {
                   <span class="bold">Selections:</span> 2x Shield Generator
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">
                     Faction: &lt;Sept&gt;, Fly, Drone, Faction: T'au Empire,
                     Shield Drone
                   </span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">
                     Artificial Helpers, Docked Drones, Limited Parameters, Manta
                     Strike, Valued Sacrifice
                   </span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Drone Shield Generator</span>,
-                  <span class="bold">Unit:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Drone Shield Generator</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
                   <span class="italic">Shield Drone</span>
                 </p>
               </li>
             </ul>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>

@@ -9,15 +9,12 @@ import Root from "./src/routes/root";
 import CadreFireblade from "./src/routes/cadreFireblade";
 import KrootHounds from "./src/routes/krootHounds";
 import StrikeTeam from "./src/routes/strikeTeam";
-import KrootShaper from "./src/routes/krootshaper";
 import CrisisSuits from "./src/routes/crisissuits";
-import Ghostkeel from "./src/routes/ghostkeel";
-import Pathfinders from "./src/routes/pathfinders";
 import Broadside from "./src/routes/broadside";
 import KrootCarnivores from "./src/routes/krootCarnivores";
-import CrisisSuits2 from "./src/routes/crisissuits2";
 import Tausept from "./src/routes/tausept";
 import Saceasept from "./src/routes/saceasept";
+import CommanderCrisis from "./src/routes/commanderCrisis";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +26,10 @@ const router = createBrowserRouter([
     element: <CadreFireblade />,
   },
   {
+    path: "/commander-crisis",
+    element: <CommanderCrisis />,
+  },
+  {
     path: "/kroothounds",
     element: <KrootHounds />,
   },
@@ -37,24 +38,8 @@ const router = createBrowserRouter([
     element: <StrikeTeam />,
   },
   {
-    path: "/krootshaper",
-    element: <KrootShaper />,
-  },
-  {
     path: "/crisissuits",
     element: <CrisisSuits />,
-  },
-  {
-    path: "/crisissuits2",
-    element: <CrisisSuits2 />,
-  },
-  {
-    path: "/ghostkeel",
-    element: <Ghostkeel />,
-  },
-  {
-    path: "/pathfinders",
-    element: <Pathfinders />,
   },
   {
     path: "/broadside",

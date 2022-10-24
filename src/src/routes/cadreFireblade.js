@@ -6,36 +6,36 @@ export default function CadreFireblade() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Cadre Fireblade [3 PL, 50pts]</h4>
+            <h4>Cadre Fireblade [3 PL, -1CP, 50pts]</h4>
             <p>
               <span class="bold">Selections:</span> 2. Through Unity,
               Devastation (Aura), Fireblade Pulse Rifle, Markerlight, Ohr'tu's
-              Lantern, Warlord
+              Lantern, Stratagem: Promising Pupil [-1CP]
             </p>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Faction: &lt;Sept&gt;, Character, Infantry, HQ, Faction: T'au
-                Empire, Cadre Fireblade, Photon Grenades, Markerlight, Warlord,
-                Warlord - T'au
+                Empire, Cadre Fireblade, Photon Grenades, Markerlight
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
+              <span class="bold">Rules:</span>{" "}
               <span class="italic">Markerlights</span>
             </p>
             <p class="profile-names">
-              <span class="bold">Abilities:</span>
+              <span class="bold">Abilities:</span>{" "}
               <span class="italic">
                 2. Through Unity, Devastation (Aura), Markerlight, Ohr'tu's
-                Lantern, Target Sighted, Volley Fire (Aura)
+                Lantern, Stratagem: Promising Pupil, Target Sighted, Volley Fire
+                (Aura)
               </span>
-              , <span class="bold">Unit:</span>
-              <span class="italic">Cadre Fireblade</span>,
-              <span class="bold">Weapon:</span>
+              , <span class="bold">Unit:</span>{" "}
+              <span class="italic">Cadre Fireblade</span>,{" "}
+              <span class="bold">Weapon:</span>{" "}
               <span class="italic">Fireblade Pulse Rifle</span>
             </p>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -69,6 +69,25 @@ export default function CadreFireblade() {
                     one Markerlight token on a roll of 3+).
                   </td>
                   <td>Codex: Tau Empire p75</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Stratagem: Promising Pupil</td>
+                  <td>
+                    Use this Stratagem before the battle, when you are mustering
+                    your army, if your WARLORD has the T'AU EMPIRE keyword.
+                    Select one T'AU EMPIRE CHARACTER model in your army and
+                    determine one Warlord Trait for that model (this must be a
+                    Warlord Trait they can have); this model is regarded as your
+                    Warlord for the purposes of that Warlord Trait. Each Warlord
+                    Trait in your army must be unique (if randomly generated,
+                    re-roll duplicate results), and you cannot use this
+                    Stratagem to give a model two Warlord Traits. You can only
+                    use this Stratagem once, unless you are playing a Strike
+                    Force battle (in which case you can use this Stratagem
+                    twice), or an Onslaught battle (in which case you can use
+                    this Stratagem three times).
+                  </td>
+                  <td>Codex: Tau Empire p67</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Target Sighted</td>
