@@ -6,39 +6,29 @@ export default function StrikeTeam() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Strike Team [5 PL, 95pts]</h4>
+            <h4>Strike Team [5 PL, 100pts]</h4>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Infantry, Troops, Faction: &lt;Sept&gt;, Faction: T'au Empire,
                 Strike Team, Photon Grenades, Fire Warrior Team, Core
               </span>
             </p>
             <p class="profile-names">
-              <span class="bold">Abilities:</span>
+              <span class="bold">Abilities:</span>{" "}
               <span class="italic">Set up Turret</span>
             </p>
             <ul>
               <li>
-                <h4>Fire Warrior Shas'ui [5pts]</h4>
+                <h4>Fire Warrior Shas'ui</h4>
                 <p>
-                  <span class="bold">Selections:</span> Markerlight [5pts],
-                  Pulse Pistol, Pulse Rifle
-                </p>
-                <p class="category-names">
-                  <span class="bold">Categories:</span>
-                  <span class="caps">Markerlight</span>
-                </p>
-                <p class="rule-names">
-                  <span class="bold">Rules:</span>
-                  <span class="italic">Markerlights</span>
+                  <span class="bold">Selections:</span> Pulse Pistol, Pulse
+                  Rifle
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Markerlight</span>,
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Fire Warrior Shas'ui</span>,
-                  <span class="bold">Weapon:</span>
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Fire Warrior Shas'ui</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
                   <span class="italic">Pulse Pistol, Pulse Rifle</span>
                 </p>
               </li>
@@ -49,40 +39,40 @@ export default function StrikeTeam() {
                   Pulse Rifle
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Unit:</span>
-                  <span class="italic">Fire Warrior</span>,
-                  <span class="bold">Weapon:</span>
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Fire Warrior</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
                   <span class="italic">Pulse Pistol, Pulse Rifle</span>
                 </p>
               </li>
               <li>
-                <h4>Marker Drone [10pts]</h4>
+                <h4>2x Marker Drone [20pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Markerlight
+                  <span class="bold">Selections:</span> 2x Markerlight
                 </p>
                 <p class="category-names">
-                  <span class="bold">Categories:</span>
+                  <span class="bold">Categories:</span>{" "}
                   <span class="caps">
                     Faction: &lt;Sept&gt;, Drone, Fly, Faction: T'au Empire,
                     Marker Drone, Markerlight
                   </span>
                 </p>
                 <p class="rule-names">
-                  <span class="bold">Rules:</span>
+                  <span class="bold">Rules:</span>{" "}
                   <span class="italic">
                     Artificial Helpers, Docked Drones, Limited Parameters, Manta
                     Strike, Markerlights, Valued Sacrifice
                   </span>
                 </p>
                 <p class="profile-names">
-                  <span class="bold">Abilities:</span>
-                  <span class="italic">Markerlight</span>,
-                  <span class="bold">Unit:</span>
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Markerlight</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
                   <span class="italic">Marker Drone</span>
                 </p>
               </li>
             </ul>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -99,15 +89,13 @@ export default function StrikeTeam() {
                   <td class="profile-name">Set up Turret</td>
                   <td>
                     If this unit contains a Support Turret, that model is not
-                    set up until the unit performs the following action:
-                    <br />
-                    <br />
-                    'Deploy Turret (Action): In your Command phase, any number
-                    of BREACHER TEAM or STRIKE TEAM units from your army can
-                    start to perform this action. This action is completed at
-                    the end of your next Movement phase. When it is completed,
-                    if that unit contains a Support Turret model that is not on
-                    the battlefield and has not been destroyed, set that Support
+                    set up until the unit performs the following action: 'Deploy
+                    Turret (Action): In your Command phase, any number of
+                    BREACHER TEAM or STRIKE TEAM units from your army can start
+                    to perform this action. This action is completed at the end
+                    of your next Movement phase. When it is completed, if that
+                    unit contains a Support Turret model that is not on the
+                    battlefield and has not been destroyed, set that Support
                     Turret model up on the battlefield in Unit Coherency with
                     that unit.'
                   </td>

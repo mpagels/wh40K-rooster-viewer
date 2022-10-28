@@ -6,36 +6,65 @@ export default function CadreFireblade() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Cadre Fireblade [3 PL, 50pts]</h4>
-            <p>
-              <span class="bold">Selections:</span> 2. Through Unity,
-              Devastation (Aura), Fireblade Pulse Rifle, Markerlight, Ohr'tu's
-              Lantern, Warlord
-            </p>
+            <h4>Broadside Battlesuits [6 PL, 125pts]</h4>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
-                Faction: &lt;Sept&gt;, Character, Infantry, HQ, Faction: T'au
-                Empire, Cadre Fireblade, Photon Grenades, Markerlight, Warlord,
-                Warlord - T'au
+                Faction: &lt;Sept&gt;, Battlesuit, Heavy Support, Faction: T'au
+                Empire, Broadside Battlesuits, Infantry
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
-              <span class="italic">Markerlights</span>
+              <span class="bold">Rules:</span>{" "}
+              <span class="italic">Battlesuits</span>
             </p>
-            <p class="profile-names">
-              <span class="bold">Abilities:</span>
-              <span class="italic">
-                2. Through Unity, Devastation (Aura), Markerlight, Ohr'tu's
-                Lantern, Target Sighted, Volley Fire (Aura)
-              </span>
-              , <span class="bold">Unit:</span>
-              <span class="italic">Cadre Fireblade</span>,
-              <span class="bold">Weapon:</span>
-              <span class="italic">Fireblade Pulse Rifle</span>
-            </p>
-            <br />
+            <ul>
+              <li>
+                <h4>Broadside Shas'vre [5 PL, 95pts]</h4>
+                <p>
+                  <span class="bold">Selections:</span> Advanced Targeting
+                  System, Crushing Bulk, Heavy Rail Rifle, Twin Plasma Rifle
+                  [10pts]
+                </p>
+                <p class="profile-names">
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Advanced Targeting System</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Broadside Shas'vre</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
+                  <span class="italic">
+                    Crushing Bulk, Heavy Rail Rifle, Twin Plasma Rifle
+                  </span>
+                </p>
+              </li>
+              <li>
+                <h4>2x Shield Drone [30pts]</h4>
+                <p>
+                  <span class="bold">Selections:</span> 2x Shield Generator
+                </p>
+                <p class="category-names">
+                  <span class="bold">Categories:</span>{" "}
+                  <span class="caps">
+                    Faction: &lt;Sept&gt;, Fly, Drone, Faction: T'au Empire,
+                    Shield Drone
+                  </span>
+                </p>
+                <p class="rule-names">
+                  <span class="bold">Rules:</span>{" "}
+                  <span class="italic">
+                    Artificial Helpers, Docked Drones, Limited Parameters, Manta
+                    Strike, Valued Sacrifice
+                  </span>
+                </p>
+                <p class="profile-names">
+                  <span class="bold">Abilities:</span>{" "}
+                  <span class="italic">Drone Shield Generator</span>,{" "}
+                  <span class="bold">Unit:</span>{" "}
+                  <span class="italic">Shield Drone</span>
+                </p>
+              </li>
+            </ul>
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -44,52 +73,19 @@ export default function CadreFireblade() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">
-                    2. Through Unity, Devastation (Aura)
-                  </td>
+                  <td class="profile-name">Advanced Targeting System</td>
                   <td>
-                    While a friendly &lt;SEPT&gt; CORE unit is within 6" of this
-                    WARLORD, each time a CORE model in that unit makes a ranged
-                    attack, on an unmodified wound roll of 6, improve the Armour
-                    Penetration characteristic of that attack by 1.
+                    Each time the bearer makes a ranged attack, an unmodified
+                    hit roll of 6 automatically wounds the target.
                   </td>
-                  <td>Codex: Tau Empire p72</td>
+                  <td>Codex: Tau Empire p119</td>
                 </tr>
                 <tr>
-                  <td class="profile-name">Markerlight</td>
-                  <td>The bearer gains the MARKERLIGHT keyword.</td>
-                  <td>Codex: Tau Empire p96</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Ohr'tu's Lantern</td>
+                  <td class="profile-name">Drone Shield Generator</td>
                   <td>
-                    Model equipped with a markerlight only. Each time this model
-                    performs the Fire Markerlights action (pg 93), roll five
-                    additional D6s (each of which causes the enemy unit to gain
-                    one Markerlight token on a roll of 3+).
+                    A model with a shield generator has a 4+ invulnerable save.
                   </td>
-                  <td>Codex: Tau Empire p75</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Target Sighted</td>
-                  <td>
-                    In your Command phase, select one friendly &lt;SEPT&gt; FIRE
-                    WARRIOR TEAM unit within 9" of this unit's CADRE FIREBLADE
-                    model, until the start of your next Command phase, each time
-                    a CORE model in that unit makes a ranged attack, re-roll a
-                    hit roll of 1.
-                  </td>
-                  <td>Codex: Tau Empire p103</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Volley Fire (Aura)</td>
-                  <td>
-                    While a friendly &lt;SEPT&gt; CORE unit is within 6" of this
-                    unit's CADRE FIREBLADE model, each time a CORE model in that
-                    unit makes an attack with a pulse weapon (pg 130), an
-                    unmodified hit roll of 6 scores one additional hit.
-                  </td>
-                  <td>Codex: Tau Empire p103</td>
+                  <td>Codex: Tau Empire p97</td>
                 </tr>
               </tbody>
             </table>
@@ -109,17 +105,30 @@ export default function CadreFireblade() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">Cadre Fireblade</td>
-                  <td>6"</td>
+                  <td class="profile-name">Broadside Shas'vre</td>
+                  <td>5"</td>
+                  <td>5+</td>
                   <td>4+</td>
-                  <td>3+</td>
-                  <td>3</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>8</td>
+                  <td>4</td>
+                  <td>9</td>
+                  <td>2+</td>
+                  <td>Codex: Tau Empire p119</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Shield Drone</td>
+                  <td>10"</td>
+                  <td>5+</td>
+                  <td>5+</td>
                   <td>3</td>
                   <td>4</td>
-                  <td>3</td>
-                  <td>8</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>6</td>
                   <td>4+</td>
-                  <td>Codex: Tau Empire p103</td>
+                  <td>Codex: Tau Empire p94</td>
                 </tr>
               </tbody>
             </table>
@@ -136,14 +145,38 @@ export default function CadreFireblade() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">Fireblade Pulse Rifle</td>
-                  <td>36"</td>
-                  <td>Rapid Fire 1</td>
-                  <td>5</td>
-                  <td>-2</td>
-                  <td>2</td>
+                  <td class="profile-name">Crushing Bulk</td>
+                  <td>Melee</td>
+                  <td>Melee</td>
+                  <td>+1</td>
+                  <td>-1</td>
+                  <td>1</td>
                   <td>-</td>
-                  <td>Codex: Tau Empire p103</td>
+                  <td>Codex: Tau Empire p130</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Heavy Rail Rifle</td>
+                  <td>60"</td>
+                  <td>Heavy 2</td>
+                  <td>9</td>
+                  <td>-4</td>
+                  <td>D3+3</td>
+                  <td>
+                    Each time a successful wound roll is made for an attack with
+                    this weapon, the target suffers 1 mortal wound in addition
+                    to any other damage.
+                  </td>
+                  <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Twin Plasma Rifle</td>
+                  <td>30"</td>
+                  <td>Assault 2</td>
+                  <td>8</td>
+                  <td>-4</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>Codex: Tau Empire p132</td>
                 </tr>
               </tbody>
             </table>
