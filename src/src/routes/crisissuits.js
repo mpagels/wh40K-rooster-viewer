@@ -6,7 +6,7 @@ export default function CrisisSuits() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Crisis Battlesuits [12 PL, 335pts]</h4>
+            <h4>Crisis Battlesuits [12 PL, 290pts]</h4>
             <p class="category-names">
               <span class="bold">Categories:</span>{" "}
               <span class="caps">
@@ -20,10 +20,11 @@ export default function CrisisSuits() {
             </p>
             <ul>
               <li>
-                <h4>Crisis Shas'ui [85pts]</h4>
+                <h4>Crisis Shas'ui [70pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Missile Pod [10pts],
-                  Missile Pod [15pts], Missile Pod [20pts], Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Missile Pod [10pts], Plasma
+                  Rifle [10pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
@@ -31,14 +32,18 @@ export default function CrisisSuits() {
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">Missile Pod</span>
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Missile Pod, Plasma
+                    Rifle
+                  </span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'ui [85pts]</h4>
+                <h4>Crisis Shas'ui [70pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Missile Pod [10pts],
-                  Missile Pod [15pts], Missile Pod [20pts], Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Missile Pod [10pts], Plasma
+                  Rifle [10pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
@@ -46,14 +51,18 @@ export default function CrisisSuits() {
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">Missile Pod</span>
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Missile Pod, Plasma
+                    Rifle
+                  </span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'vre [85pts]</h4>
+                <h4>Crisis Shas'vre [70pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Missile Pod [20pts],
-                  Missile Pod [10pts], Missile Pod [15pts], Target Lock
+                  <span class="bold">Selections:</span> Airbursting
+                  Fragmentation Projector [10pts], Missile Pod [10pts], Plasma
+                  Rifle [10pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
@@ -61,7 +70,10 @@ export default function CrisisSuits() {
                   <span class="bold">Unit:</span>{" "}
                   <span class="italic">Crisis Shas'vre</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">Missile Pod</span>
+                  <span class="italic">
+                    Airbursting Fragmentation Projector, Missile Pod, Plasma
+                    Rifle
+                  </span>
                 </p>
               </li>
               <li>
@@ -229,6 +241,21 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
+                  <td class="profile-name">
+                    Airbursting Fragmentation Projector
+                  </td>
+                  <td>24"</td>
+                  <td>Assault D6</td>
+                  <td>4</td>
+                  <td>-1</td>
+                  <td>1</td>
+                  <td>
+                    Blast. This weapon can target units that are not visible to
+                    the bearer.
+                  </td>
+                  <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
                   <td class="profile-name">Missile Pod</td>
                   <td>30"</td>
                   <td>Assault 2</td>
@@ -237,6 +264,16 @@ export default function CrisisSuits() {
                   <td>2</td>
                   <td>-</td>
                   <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Plasma Rifle</td>
+                  <td>30"</td>
+                  <td>Assault 1</td>
+                  <td>8</td>
+                  <td>-4</td>
+                  <td>3</td>
+                  <td>-</td>
+                  <td>Codex: Tau Empire p132</td>
                 </tr>
               </tbody>
             </table>

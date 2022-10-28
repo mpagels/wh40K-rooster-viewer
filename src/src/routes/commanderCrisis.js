@@ -6,17 +6,18 @@ export default function CommanderCrisis() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Commander in Crisis Battlesuit [8 PL, 130pts]</h4>
+            <h4>Commander in Crisis Battlesuit [8 PL, 150pts]</h4>
             <p>
               <span class="bold">Selections:</span> 4. Through Boldness,
-              Victory, Plasma Rifle [10pts], Warlord
+              Victory, Airbursting Fragmentation Projector [10pts], Missile Pod
+              [10pts], Plasma Rifle [10pts], Target Lock, Warlord
             </p>
             <p class="category-names">
               <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Faction: &lt;Sept&gt;, Battlesuit, Character, Fly, Jet Pack, HQ,
                 Faction: T'au Empire, Commander, Crisis, Infantry, Warlord,
-                Warlord - Sa'cea
+                Warlord - T'au
               </span>
             </p>
             <p class="rule-names">
@@ -27,12 +28,14 @@ export default function CommanderCrisis() {
               <span class="bold">Abilities:</span>{" "}
               <span class="italic">
                 4. Through Boldness, Victory, Master of War (Aura) (Crisis),
-                Tactical Acumen (Crisis)
+                Tactical Acumen (Crisis), Target Lock
               </span>
               , <span class="bold">Unit:</span>{" "}
               <span class="italic">Commander in Crisis Battlesuit</span>,{" "}
               <span class="bold">Weapon:</span>{" "}
-              <span class="italic">Plasma Rifle</span>
+              <span class="italic">
+                Airbursting Fragmentation Projector, Missile Pod, Plasma Rifle
+              </span>
             </p>
             <ul>
               <li>
@@ -108,6 +111,14 @@ export default function CommanderCrisis() {
                   </td>
                   <td>Codex: Tau Empire p100</td>
                 </tr>
+                <tr>
+                  <td class="profile-name">Target Lock</td>
+                  <td>
+                    Each time the bearer makes a ranged attack, the target does
+                    not receive the benefits of Light Cover against that attack.
+                  </td>
+                  <td>Codex: Tau Empire p100</td>
+                </tr>
               </tbody>
             </table>
             <table cellspacing="-1">
@@ -164,6 +175,31 @@ export default function CommanderCrisis() {
                   <th>D</th>
                   <th>Abilities</th>
                   <th>Ref</th>
+                </tr>
+                <tr>
+                  <td class="profile-name">
+                    Airbursting Fragmentation Projector
+                  </td>
+                  <td>24"</td>
+                  <td>Assault D6</td>
+                  <td>4</td>
+                  <td>-1</td>
+                  <td>1</td>
+                  <td>
+                    Blast. This weapon can target units that are not visible to
+                    the bearer.
+                  </td>
+                  <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Missile Pod</td>
+                  <td>30"</td>
+                  <td>Assault 2</td>
+                  <td>7</td>
+                  <td>-2</td>
+                  <td>2</td>
+                  <td>-</td>
+                  <td>Codex: Tau Empire p131</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Plasma Rifle</td>

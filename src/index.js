@@ -15,6 +15,7 @@ import KrootCarnivores from "./src/routes/krootCarnivores";
 import Tausept from "./src/routes/tausept";
 import Saceasept from "./src/routes/saceasept";
 import CommanderCrisis from "./src/routes/commanderCrisis";
+import Longstrike from "./src/routes/longstrike";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/commander-crisis",
     element: <CommanderCrisis />,
+  },
+  {
+    path: "/longstrike",
+    element: <Longstrike />,
   },
   {
     path: "/kroothounds",
