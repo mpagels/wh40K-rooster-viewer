@@ -18,6 +18,10 @@ import KrootCarnivores from "./src/routes/krootCarnivores";
 import CrisisSuits2 from "./src/routes/crisissuits2";
 import Tausept from "./src/routes/tausept";
 import Saceasept from "./src/routes/saceasept";
+import StealthSuits from "./src/routes/stealtsuits";
+import Drones from "./src/routes/drones";
+import Commander from "./src/routes/commander";
+import Borkansept from "./src/routes/borkan";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +31,18 @@ const router = createBrowserRouter([
   {
     path: "/cadre",
     element: <CadreFireblade />,
+  },
+  {
+    path: "/commander",
+    element: <Commander />,
+  },
+  {
+    path: "/stealthsuits",
+    element: <StealthSuits />,
+  },
+  {
+    path: "/drones",
+    element: <Drones />,
   },
   {
     path: "/kroothounds",
@@ -71,6 +87,10 @@ const router = createBrowserRouter([
   {
     path: "/saceasept",
     element: <Saceasept />,
+  },
+  {
+    path: "/borkansept",
+    element: <Borkansept />,
   },
 ]);
 

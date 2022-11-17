@@ -3,24 +3,26 @@ import { Link } from "react-router-dom";
 export default function Root() {
   return (
     <div className="navigation">
-      <Link to={`cadre`}>Cadre Fireblade</Link>
-      <Link to={`striketeam`}>Strike Team</Link>
-      <Link to={`pathfinders`}>Pathfinders</Link>
+      <Link to={`commander`} style={{ textAlign: "center" }}>
+        Commander in Coldstar Battlesuit <br></br>(DW-02 Advanced Burst Cannon /
+        High-output Burst Cannon / Fusion Blaster) <br></br> (Shield Generator,
+        Early Warning Override)
+      </Link>
       <Link to={`crisissuits`} style={{ textAlign: "center" }}>
-        Crisis Suits <br></br>(Bust Canon / AFP)
+        BodyguardsCrisis Suits <br></br>(Bust Canon / Target Lock /
+        Multitracker)
       </Link>
-      <Link to={`crisissuits2`} style={{ textAlign: "center" }}>
-        Crisis Suits <br></br>(Plasma Rifle / Missile Pods) <br></br> (Shield
-        Generator, Early Warning Override)
-      </Link>
+
       <Link to={`ghostkeel`}>Ghostkeel Battlesuit</Link>
+      <Link to={`stealthsuits`}>Stealth Suits</Link>
       <Link to={`broadside`}>Broadside</Link>
-      <Link to={`krootshaper`}>Kroot Sharper</Link>
+
+      <Link to={`drones`}>Gun Drones</Link>
+
       <Link to={`krootcarnivores`}>Kroot Carnivores</Link>
-      <Link to={`kroothounds`}>Kroot Hounds</Link>
-      <Link to={`kroothounds`}>Kroot Hounds</Link>
       <Link to={`tausept`}>Tau Sept: Coordinated Fire Arcs</Link>
       <Link to={`saceasept`}>Sa'cea Sept: Masters of Urban Warfare</Link>
+      <Link to={`borkansept`}>Bork'an Sept: Masters of Urban Warfare</Link>
     </div>
   );
 }

@@ -6,103 +6,88 @@ export default function CrisisSuits() {
       <div class="battlescribe maini">
         <ul class="viewer-list">
           <li class="rootselection">
-            <h4>Crisis Battlesuits [11 PL, 205pts]</h4>
+            <h4>Crisis Bodyguards [16 PL, 320pts]</h4>
             <p class="category-names">
               <span class="bold">Categories:</span>{" "}
               <span class="caps">
-                Faction: &lt;Sept&gt;, Battlesuit, Elites, Fly, Jet Pack,
-                Faction: T'au Empire, Infantry, Core, Crisis
+                Faction: &lt;Sept&gt;, Battlesuit, Fly, Jet Pack, Faction: T'au
+                Empire, Crisis Bodyguards, Core, Crisis, Infantry, No Force Org
+                Slot
               </span>
             </p>
             <p class="rule-names">
               <span class="bold">Rules:</span>{" "}
               <span class="italic">Battlesuits, Manta Strike</span>
             </p>
+            <p class="profile-names">
+              <span class="bold">Abilities:</span>{" "}
+              <span class="italic">Bodyguard Contingent, Sworn Protectors</span>
+            </p>
             <ul>
               <li>
-                <h4>Crisis Shas'ui [55pts]</h4>
+                <h4>Crisis Bodyguard Shas'ui [45pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  <span class="bold">Selections:</span> Burst Cannon [5pts],
                   Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
-                  <span class="italic">Crisis Shas'ui</span>,{" "}
+                  <span class="italic">Crisis Bodyguard Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Burst Cannon</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'ui [55pts]</h4>
+                <h4>Crisis Bodyguard Shas'ui [45pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  <span class="bold">Selections:</span> Burst Cannon [5pts],
                   Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
-                  <span class="italic">Crisis Shas'ui</span>,{" "}
+                  <span class="italic">Crisis Bodyguard Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Burst Cannon</span>
                 </p>
               </li>
               <li>
-                <h4>Crisis Shas'vre [55pts]</h4>
+                <h4>Crisis Bodyguard Shas'ui [45pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Airbursting
-                  Fragmentation Projector [10pts], Burst Cannon [5pts],
+                  <span class="bold">Selections:</span> Burst Cannon [5pts],
                   Multi-tracker, Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
                   <span class="italic">Multi-tracker, Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
-                  <span class="italic">Crisis Shas'vre</span>,{" "}
+                  <span class="italic">Crisis Bodyguard Shas'ui</span>,{" "}
                   <span class="bold">Weapon:</span>{" "}
-                  <span class="italic">
-                    Airbursting Fragmentation Projector, Burst Cannon
-                  </span>
+                  <span class="italic">Burst Cannon</span>
                 </p>
               </li>
               <li>
-                <h4>Marker Drone [10pts]</h4>
+                <h4>Crisis Bodyguard Shas'vre [65pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> Markerlight
-                </p>
-                <p class="category-names">
-                  <span class="bold">Categories:</span>{" "}
-                  <span class="caps">
-                    Faction: &lt;Sept&gt;, Drone, Fly, Faction: T'au Empire,
-                    Marker Drone, Markerlight
-                  </span>
-                </p>
-                <p class="rule-names">
-                  <span class="bold">Rules:</span>{" "}
-                  <span class="italic">
-                    Artificial Helpers, Docked Drones, Limited Parameters, Manta
-                    Strike, Markerlights, Valued Sacrifice
-                  </span>
+                  <span class="bold">Selections:</span> Fusion Blaster [10pts],
+                  Fusion Blaster [15pts], Target Lock
                 </p>
                 <p class="profile-names">
                   <span class="bold">Abilities:</span>{" "}
-                  <span class="italic">Markerlight</span>,{" "}
+                  <span class="italic">Target Lock</span>,{" "}
                   <span class="bold">Unit:</span>{" "}
-                  <span class="italic">Marker Drone</span>
+                  <span class="italic">Crisis Bodyguard Shas'vre</span>,{" "}
+                  <span class="bold">Weapon:</span>{" "}
+                  <span class="italic">Fusion Blaster</span>
                 </p>
               </li>
               <li>
-                <h4>2x Shield Drone [30pts]</h4>
+                <h4>8x Shield Drone [120pts]</h4>
                 <p>
-                  <span class="bold">Selections:</span> 2x Shield Generator
+                  <span class="bold">Selections:</span> 8x Shield Generator
                 </p>
                 <p class="category-names">
                   <span class="bold">Categories:</span>{" "}
@@ -135,16 +120,21 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
+                  <td class="profile-name">Bodyguard Contingent</td>
+                  <td>
+                    If your army is Battle-forged, then for each &lt;SEPT&gt;
+                    COMMANDER unit included in a Detachment, you can include one
+                    &lt;SEPT&gt; CRISIS BODYGUARDS unit in that Detachment
+                    without it taking up a Battlefield Role slot.
+                  </td>
+                  <td>Codex: Tau Empire p112</td>
+                </tr>
+                <tr>
                   <td class="profile-name">Drone Shield Generator</td>
                   <td>
                     A model with a shield generator has a 4+ invulnerable save.
                   </td>
                   <td>Codex: Tau Empire p97</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Markerlight</td>
-                  <td>The bearer gains the MARKERLIGHT keyword.</td>
-                  <td>Codex: Tau Empire p96</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Multi-tracker</td>
@@ -154,6 +144,17 @@ export default function CrisisSuits() {
                     scores 1 additional hit. Maximum 1 per model.
                   </td>
                   <td>Codex: Tau Empire p100</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Sworn Protectors</td>
+                  <td>
+                    While a friendly &lt;SEPT&gt; CHARACTER model (excluding
+                    VEHICLE and MONSTER models) is within 3" of any CRISIS
+                    models in this unit, that Character unit can use the Look
+                    Out, Sir rule even if this unit contains fewer than 3
+                    models.
+                  </td>
+                  <td>Codex: Tau Empire p112</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Target Lock</td>
@@ -181,7 +182,7 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">Crisis Shas'ui</td>
+                  <td class="profile-name">Crisis Bodyguard Shas'ui</td>
                   <td>10"</td>
                   <td>5+</td>
                   <td>4+</td>
@@ -191,10 +192,10 @@ export default function CrisisSuits() {
                   <td>3</td>
                   <td>8</td>
                   <td>3+</td>
-                  <td>Codex: Tau Empire p111</td>
+                  <td>Codex: Tau Empire p112</td>
                 </tr>
                 <tr>
-                  <td class="profile-name">Crisis Shas'vre</td>
+                  <td class="profile-name">Crisis Bodyguard Shas'vre</td>
                   <td>10"</td>
                   <td>5+</td>
                   <td>4+</td>
@@ -204,20 +205,7 @@ export default function CrisisSuits() {
                   <td>4</td>
                   <td>9</td>
                   <td>3+</td>
-                  <td>Codex: Tau Empire p111</td>
-                </tr>
-                <tr>
-                  <td class="profile-name">Marker Drone</td>
-                  <td>10"</td>
-                  <td>5+</td>
-                  <td>5+</td>
-                  <td>3</td>
-                  <td>4</td>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>6</td>
-                  <td>4+</td>
-                  <td>Codex: Tau Empire p94</td>
+                  <td>Codex: Tau Empire p112</td>
                 </tr>
                 <tr>
                   <td class="profile-name">Shield Drone</td>
@@ -247,21 +235,6 @@ export default function CrisisSuits() {
                   <th>Ref</th>
                 </tr>
                 <tr>
-                  <td class="profile-name">
-                    Airbursting Fragmentation Projector
-                  </td>
-                  <td>24"</td>
-                  <td>Assault D6</td>
-                  <td>4</td>
-                  <td>-1</td>
-                  <td>1</td>
-                  <td>
-                    Blast. This weapon can target units that are not visible to
-                    the bearer.
-                  </td>
-                  <td>Codex: Tau Empire p131</td>
-                </tr>
-                <tr>
                   <td class="profile-name">Burst Cannon</td>
                   <td>18"</td>
                   <td>Assault 6</td>
@@ -269,6 +242,20 @@ export default function CrisisSuits() {
                   <td>0</td>
                   <td>1</td>
                   <td>-</td>
+                  <td>Codex: Tau Empire p131</td>
+                </tr>
+                <tr>
+                  <td class="profile-name">Fusion Blaster</td>
+                  <td>18"</td>
+                  <td>Assault 1</td>
+                  <td>8</td>
+                  <td>-4</td>
+                  <td>D6</td>
+                  <td>
+                    Each time an attack made with this weapon targets a unit
+                    within half range, that attack has a Damage characteristic
+                    of D6+2.
+                  </td>
                   <td>Codex: Tau Empire p131</td>
                 </tr>
               </tbody>
