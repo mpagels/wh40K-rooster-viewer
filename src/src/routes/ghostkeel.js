@@ -13,7 +13,7 @@ export default function Ghostkeel() {
               Ghostkeel Fists, 2x Stealth Drone
             </p>
             <p class="category-names">
-              <span class="bold">Categories:</span>
+              <span class="bold">Categories:</span>{" "}
               <span class="caps">
                 Elites, Fly, Faction: &lt;Sept&gt;, Battlesuit, Jet Pack,
                 Faction: T'au Empire, Ghostkeel Battlesuit, Vehicle, Drone,
@@ -21,31 +21,31 @@ export default function Ghostkeel() {
               </span>
             </p>
             <p class="rule-names">
-              <span class="bold">Rules:</span>
+              <span class="bold">Rules:</span>{" "}
               <span class="italic">
                 Artificial Helpers, Battlesuits, Docked Drones, Limited
                 Parameters, Manta Strike, Valued Sacrifice
               </span>
             </p>
             <p class="profile-names">
-              <span class="bold">Abilities:</span>
+              <span class="bold">Abilities:</span>{" "}
               <span class="italic">
                 Drone Controller, Explodes (Ghostkeel), Flare Launcher,
                 Ghostkeel Electrowarfare Suite, Infiltrator, Stealth Field
                 Generator
               </span>
-              , <span class="bold">Unit:</span>
+              , <span class="bold">Unit:</span>{" "}
               <span class="italic">
                 Stealth Drone, XV95 Ghostkeel Shas'vre [1] (7-12+ Wounds
                 Remaining), XV95 Ghostkeel Shas'vre [2] (4-6 Wounds Remaining),
                 XV95 Ghostkeel Shas'vre [3] (1-3 Wounds Remaining)
               </span>
-              , <span class="bold">Weapon:</span>
+              , <span class="bold">Weapon:</span>{" "}
               <span class="italic">
                 Fusion Blaster, Fusion Collider, Ghostkeel Fists
               </span>
             </p>
-            <br />
+
             <table cellspacing="-1">
               <tbody>
                 <tr>
@@ -58,12 +58,9 @@ export default function Ghostkeel() {
                   <td>
                     In your Command phase, you can select one DRONE unit within
                     6" of the bearer, until the start of your next Command
-                    phase:
-                    <br />
-                    - DRONE models in that unit have a Ballistic Skill
-                    characteristic of 4+.
-                    <br />- GUN DRONE models in that unit lose the Drone
-                    Identification Protocol ability.
+                    phase: - DRONE models in that unit have a Ballistic Skill
+                    characteristic of 4+. - GUN DRONE models in that unit lose
+                    the Drone Identification Protocol ability.
                   </td>
                   <td>Codex: Tau Empire p113</td>
                 </tr>
