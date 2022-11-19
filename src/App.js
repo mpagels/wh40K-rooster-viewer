@@ -7,17 +7,18 @@ import "./battlescripe.css";
 import "./BackButton.css";
 import DisplayUnit from "./components/DisplayUnit";
 
-function getRoosterFromLS() {
-  return JSON.parse(localStorage.getItem("rooster"));
-}
-
 export default function App() {
-  const [file, setFile] = useState(getRoosterFromLS() || { selection: [] });
+  const [file, setFile] = useState({ selection: [] });
 
-  console.log(file);
   useEffect(() => {
-    localStorage.setItem("rooster", JSON.stringify(file));
-  }, [file]);
+    fetch(`/api/rooster`)
+      .then((response) => response.json())
+      .then((data) => {
+        if (data?.result[0]?.selection) {
+          setFile({ selection: data.result[0].selection });
+        }
+      });
+  }, []);
 
   function deleteSelection(id) {
     const toUpdate = [...file.selection];

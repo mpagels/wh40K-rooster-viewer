@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const grid = 8;
@@ -43,6 +43,29 @@ const SelectList = memo(function SelectList({ selection, deleteSelection }) {
 });
 
 export default function Add({ file, setFile, deleteSelection }) {
+  const navigate = useNavigate();
+
+  function handleButtonSave() {
+    fetch("/api/rooster", {
+      method: "POST", // *GET, POST, PUT, DELETE, etc.
+      mode: "cors", // no-cors, *cors, same-origin
+      cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+      credentials: "same-origin", // include, *same-origin, omit
+      headers: {
+        "Content-Type": "application/json",
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      redirect: "follow", // manual, *follow, error
+      referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+      body: JSON.stringify({ data: file.selection }), // body data type must match "Content-Type" header
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setFile({ selection: data.result.selection });
+        navigate("/");
+      });
+  }
+
   function onDragEnd(result) {
     if (!result.destination) {
       return;
@@ -104,7 +127,9 @@ export default function Add({ file, setFile, deleteSelection }) {
           )}
         </Droppable>
       </DragDropContext>
-      {file.selection.length !== 0 && <Link to="/">speichern</Link>}
+      {file.selection.length !== 0 && (
+        <button onClick={handleButtonSave}>speichern</button>
+      )}
     </>
   );
 }
